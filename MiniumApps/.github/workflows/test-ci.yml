@@ -5,9 +5,9 @@ name: Build with Gradle
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, gdryke-ci ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, gdryke-ci ]
  workflow_dispatch:
 
 jobs:
